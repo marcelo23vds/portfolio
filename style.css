@@ -1,0 +1,353 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #161A1D;
+    color: #D3D3D3;
+}
+
+@media screen and (max-width: 720px) {
+    /* Cabeçalho */
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em;
+        border-bottom: 1px solid #D3D3D3;
+    }
+
+    .cabecalho__titulo {
+        justify-content: center;
+        color: #D3D3D3;
+    }
+
+    .cabecalho__icones {
+        justify-content: left;
+    }
+
+    .icones__individual {
+        padding: 0.5em;
+    }
+
+    /* container principal */
+
+    .container {
+        margin: 5em;
+        text-align: left;
+    }
+
+    .principal__foto {
+        display: none;
+    }
+
+    .principal__descricao {
+        font-size: 1.5em;
+    }
+
+    .descricao__titulo {
+        color: #F5F3F4;
+    }
+
+    .descricao__texto {
+        color: #B1A7A6;
+    }
+
+    /* scrolldown */
+
+    .scrolldown {
+        display: none;
+    }
+
+    /* container experiência */
+
+    .titulo {
+        margin: 2em 0;
+        text-align: left;
+        font-size: 2em;
+        color: #F5F3F4;
+    }
+
+    .experiencia__lista {
+        font-size: 1.3em;
+        list-style: none;
+    }
+
+    .lista__data {
+        font-size: 1.5em;
+        color: #F5F3F4;
+    }
+
+    .lista__texto {
+        color: #B1A7A6;
+    }
+
+    /* container habilidades */
+
+    .habilidades__lista {
+        font-size: 1.5em;
+        list-style: none;
+        text-align: left;
+        color: #B1A7A6;
+    }
+
+    .lista__item {
+        padding: 0.2em;
+    }
+
+    /* rodapé */
+
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2em;
+        border-top: 1px solid #D3D3D3;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1338px) {
+
+    /* Cabeçalho */
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em;
+        border-bottom: 1px solid #D3D3D3;
+    }
+
+    .cabecalho__titulo {
+        justify-content: center;
+        color: #D3D3D3;
+    }
+
+    .cabecalho__icones {
+        justify-content: center;
+    }
+
+    .icones__individual {
+        padding: 0.5em;
+    }
+
+    /* container principal */
+
+    .container {
+        margin: 5em;
+        text-align: justify;
+    }
+
+    .principal__foto {
+        display: none;
+    }
+
+    .principal__descricao {
+        font-size: 1.5em;
+    }
+
+    .descricao__titulo {
+        color: #F5F3F4;
+    }
+
+    .descricao__texto {
+        color: #B1A7A6;
+    }
+
+    /* scrolldown */
+
+    .scrolldown {
+        display: none;
+    }
+
+    /* container experiência */
+
+    .titulo {
+        margin: 2em;
+        text-align: center;
+        font-size: 2em;
+        color: #F5F3F4;
+    }
+
+    .experiencia__lista {
+        font-size: 1.5em;
+        list-style: none;
+    }
+
+    .lista__data {
+        font-size: 1.5em;
+        color: #F5F3F4;
+    }
+
+    .lista__texto {
+        color: #B1A7A6;
+    }
+
+    /* container habilidades */
+
+    .habilidades__lista {
+        font-size: 1.3em;
+        list-style: none;
+        text-align: justify;
+        color: #B1A7A6;
+    }
+
+    .lista__item {
+        padding: 0.2em;
+    }
+
+    /* rodapé */
+
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2em;
+        border-top: 1px solid #D3D3D3;
+    }
+
+}
+
+@media screen and (min-width: 1338px) {
+
+    body {
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #161A1D;
+        color: #D3D3D3;
+    }
+
+    /* Cabeçalho */
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 2em;
+        border-bottom: 1px solid #D3D3D3;
+    }
+
+    .cabecalho__titulo {
+        justify-content: center;
+        color: #D3D3D3;
+    }
+
+    .cabecalho__icones {
+        justify-content: center;
+    }
+
+    .icones__individual {
+        padding: 0.5em;
+    }
+
+    /* container principal */
+
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        margin: 5em;
+        text-align: justify;
+    }
+
+    .container__principal {
+        height: 60vh;
+    }
+
+    .principal__foto {
+        width: 50%;
+        margin-left: 15%;
+        border-radius: 10px;
+    }
+
+    .principal__descricao {
+        margin-left: 35%;
+        font-size: 1.5em;
+    }
+
+    .descricao__titulo {
+        color: #F5F3F4;
+    }
+
+    .descricao__texto {
+        color: #B1A7A6;
+    }
+
+    /* scrolldown */
+
+    .scrolldown {
+        background-color: transparent;
+        color: transparent;
+        display: flex;
+        align-items: center;
+        margin: 5em 49%;
+        padding: 0.1px;
+        border: none;
+    }
+
+    .scrolldown:hover {
+        opacity: 50%;
+    }
+
+    /* container experiência */
+
+    .titulo {
+        margin-left: 35%;
+        font-size: 2em;
+        color: #F5F3F4;
+    }
+
+    .experiencia__titulo {
+        margin-left: 70%;
+    }
+
+    .experiencia__lista {
+        font-size: 1.3em;
+        margin-right: 30%;
+        margin-left: 10%;
+        list-style: none;
+    }
+
+    .lista__data {
+        font-size: 1.5em;
+        color: #F5F3F4;
+    }
+
+    .lista__texto {
+        color: #B1A7A6;
+    }
+
+    /* container habilidades */
+
+    .container__habilidades {
+        height: 40vh;
+    }
+
+    .habilidades__titulo {
+        margin-left: 70%;
+    }
+
+    .habilidades__lista {
+        font-size: 1.5em;
+        list-style: none;
+        margin-right: 50%;
+        margin-left: 10%;
+        text-align: left;
+        color: #B1A7A6;
+    }
+
+    .lista__item {
+        padding: 0.2em;
+    }
+
+    /* rodapé */
+
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2em;
+        border-top: 1px solid #D3D3D3;
+    }
+
+}
