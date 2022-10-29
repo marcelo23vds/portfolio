@@ -105,7 +105,7 @@ body {
     }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1338px) {
+@media screen and (min-width: 720px) and (max-width: 1440px) {
 
     /* Cabeçalho */
 
@@ -208,7 +208,7 @@ body {
 
 }
 
-@media screen and (min-width: 1338px) {
+@media screen and (min-width: 1440px) {
 
     body {
         font-family: 'Roboto Condensed', sans-serif;
