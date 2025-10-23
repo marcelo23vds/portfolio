@@ -18,7 +18,7 @@ header {
 }
 
 .container-info {
-    padding-top: 15rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,7 +28,7 @@ header {
 
 .container-info img {
     border-radius: 50%;
-    width: 20%;
+    width: 20rem;
 }
 
 .container-info div {
@@ -45,7 +45,7 @@ header {
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 15rem 3rem 0 0;
+    padding: 10rem 3rem 0 0;
 }
 
 .lista-skills {
